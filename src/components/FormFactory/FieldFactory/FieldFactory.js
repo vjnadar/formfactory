@@ -21,6 +21,7 @@ const fieldFactory = (props) => {
                   onBlur={props.formProps.handleBlur}
                   checked={props.formProps.values[field.name]}
                 />
+                &nbsp;
                 <label htmlFor={field.name}>
                   <span> {field.label}</span>
                 </label>

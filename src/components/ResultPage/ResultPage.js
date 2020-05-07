@@ -24,7 +24,7 @@ const ResultPage = (props) => {
       <h2 className="title">Congratulations!</h2>
       <h4 className="message">Your registration was successful. </h4>
       <Button color="link" size="lg" onClick={goBackHome}>
-        Back to main menu.
+        Back to main menu
       </Button>
     </div>
   );
