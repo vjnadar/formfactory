@@ -1,0 +1,43 @@
+.button {
+  display: inline-block;
+  background:  #F24E1E;
+  color: white ;
+  font-weight: 350;
+  padding: 0.2rem 0.5rem;
+  width: 6rem;
+  margin: 0.7rem 0.2rem;
+  border-radius: 0.3rem;
+  border: 0.01rem solid rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.submit-button{
+  display: inline-block;
+  background:  #F24E1E;
+  color: white ;
+  font-weight: 350;
+  padding: 0.2rem 0.5rem;
+  width: 6rem;
+  margin: 0.7rem 0.2rem;
+  border-radius: 0.3rem;
+  border: 0.01rem solid rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.button:active,
+.button:hover {
+  background:white;
+  color: #F24E1E;
+  border-radius: unset;
+}
+.button:focus {
+  outline: none;
+}
+.submit-button:active,
+.submit-button:hover {
+  background:white;
+  color: #F24E1E;
+  border-radius: unset;
+}
+.submit-button:focus {
+  outline: none;
+}
+
