@@ -1,7 +1,5 @@
 import React, { useCallback, useEffect, useContext } from "react";
 import { useHistory } from "react-router-dom";
-// import { connect } from "react-redux";
-// import * as actions from "../../store/actions/authenticationActions/index";
 import { MainContext } from "../../../contexts";
 import { path } from "../../../constants";
 import Form from "../../FormFactory/FormFactory";

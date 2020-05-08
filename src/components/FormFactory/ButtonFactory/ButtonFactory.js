@@ -12,7 +12,6 @@ class ButtonFactory extends Component {
   }
 
   componentDidMount() {
-    // const { isFormSpecValid } = this.state;
     const { buttonSpecs } = this.props;
     if (buttonSpecs.buttonSet) {
       this.setState({ isFormSpecValid: true });

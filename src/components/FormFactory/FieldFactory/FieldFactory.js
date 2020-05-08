@@ -3,7 +3,6 @@ import ValidatorTextbox from "../../UI/ValidatorTextbox/ValidatorTextbox";
 import { Link } from "react-router-dom";
 import Avatar from "@material-ui/core/Avatar";
 const fieldFactory = (props) => {
-  // let fileInput;
   const fileInput = React.createRef();
   return (
     <>

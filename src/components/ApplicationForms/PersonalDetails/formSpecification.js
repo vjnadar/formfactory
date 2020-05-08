@@ -1,5 +1,5 @@
 export const formSpecification = {
-  title: "Add your personal Details",
+  title: "Add your personal details",
   inputFields: [
     {
       type: "text",

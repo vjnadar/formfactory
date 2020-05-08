@@ -1,5 +1,5 @@
 export const formSpecification = {
-  title: "Add your company Details",
+  title: "Add your company details",
   inputFields: [
     {
       type: "customImageUpload",
