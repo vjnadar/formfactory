@@ -8,7 +8,7 @@ const ValidatorTextbox = (props) => {
       <input
         type="text"
         name={field.name}
-        className="square-textbox"
+        id="square-textbox"
         onChange={formProps.handleChange}
         onBlur={formProps.handleBlur}
         value={formProps.values[field.name]}
