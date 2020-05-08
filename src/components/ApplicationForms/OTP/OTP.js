@@ -40,7 +40,7 @@ const OTP = (props) => {
     <>
       <p>
         For your security, we need to verify your identity. We sent a 5-digit
-        code to name@domain.com. Please enter it below. industry.{" "}
+        code to name@domain.com. Please enter it below.{" "}
       </p>
     </>
   );
