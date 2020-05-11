@@ -152,12 +152,13 @@ const fieldFactory = (props) => {
                 ))}
               </div>
               <div>
-                {props.formProps.errors[field.name] &&
-                  props.formProps.touched[field.name] && (
+                {!props.formProps.isValid ? (
+                  <>
                     <small className="formErrors">
-                      props.formProps.errors[field.name]
+                      Please enter a valid <b>5 digit code</b>.
                     </small>
-                  )}
+                  </>
+                ) : null}
               </div>
             </>
           ) : (
