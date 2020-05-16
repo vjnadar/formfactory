@@ -1,5 +1,5 @@
 import React, { useEffect, useContext } from "react";
-import {useHistory} from 'react-router-dom';
+import { useHistory } from "react-router-dom";
 import { Button } from "reactstrap";
 import { MainContext } from "../../contexts";
 import { path } from "../../constants";
@@ -19,14 +19,16 @@ const ResultPage = (props) => {
     history.push("/");
   };
   return (
-    <div className="message-body">
+    <>
       <Background />
-      <h2 className="title">Congratulations!</h2>
-      <h4 className="message">Your registration was successful. </h4>
-      <Button color="link" size="lg" onClick={goBackHome}>
-        Back to main menu
-      </Button>
-    </div>
+      <div className="message-body">
+        <h2 className="title">Congratulations!</h2>
+        <h4 className="message">Your registration was successful. </h4>
+        <Button color="link" size="lg" onClick={goBackHome}>
+          Back to main menu
+        </Button>
+      </div>
+    </>
   );
 };
 export default ResultPage;
